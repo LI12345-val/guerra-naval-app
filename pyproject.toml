@@ -1,0 +1,18 @@
+[project]
+name = "guerra-naval"
+version = "1.0.0"
+description = "Guerra Naval Estratégica - Online"
+requires-python = ">=3.9"
+dependencies = [
+  "flet==0.85.3",
+  "flet-audio==0.85.3",
+  "websockets>=13.0",
+]
+
+[tool.flet]
+org = "com.guerranaval"
+product = "Guerra Naval"
+company = "Guerra Naval"
+
+[tool.flet.app]
+path = "."
